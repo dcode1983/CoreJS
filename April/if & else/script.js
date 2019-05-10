@@ -8,12 +8,20 @@ if(day > 5) {
     console.log('It\'s a weekday')
 };
 
+// George's Solution
 
+let arr = [];
+for (let i=0; i<=15; i++) {
+arr.push(Math.round(Math.random()*20));
+let v = arr[i];
+if(v > 10) {
+console.log(v)
+}
+}
 
+console.log(arr);
 
-
-
-
+//----------------------2nd Problem Set------/////
 var arr = [];
 for (i=0; i<=100;  i++)  {
     arr.push(Math.round(Math.random()*i))
@@ -23,6 +31,18 @@ for (i=0; i<=100;  i++)  {
 }
 
 console.log(arr);
+
+// George's Solution
+
+let arr = [20, 10, 8, 3 ,5, 13, 20, 10,20,10];
+
+/*console.log(arr[0]);
+console.log(arr[2]);
+console.log(arr[4]);*/
+
+for (let i=0; i<=9 ;i+=2){//i=0, i=2, i=4, i=6, i=8
+console.log(arr[i]);
+}
 
 
 
