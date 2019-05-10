@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loops and arrays</title>
+</head>
+<body>
+   <script>
+//    let  m, Date=[12, 15, 17, 15, 14, 12, 10, 13, 14, 15];
+//m= 0;
+//for (let k=0;k<10;k++) {
+//    if (Date[k]===15)
+//        m++;
+//}
+//console.log(m);  3
+    
+    
+       let t, A =[1, 2, 5, 8, 9, 3, 4, 0, 7, 6];
+let j = 5;
+while (A[j] < A[j-1])
+{
+    t = A[j];
+    A[j] = A[j-1];
+    A[j-1] = t;
+    j =j - 1;
+}
+console.log(j) 
+    
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Problem Set1</title>
+</head>
+<body>
+<script>
+
+//1)Есть число от 1 до 7. Вывести названия дня недели соответствующее этому дню
+//пример:
+//a =3 
+//ответ:
+//среда
+//
+//а=7 
+//ответ:
+//воскресенье
+//
+//
+//2)Есть дракон(dragon) и два воина(warrior1 и warrior). У каждого из них есть своя атака и воины дерутся с драконом. Написать кто из воинов победит: первый, второй, они вместе или дракон. Побеждает тот у кого атака больше.
+//	
+	
+//var day = prompt('Какой день недели?')
+//
+//if (day == 1) {
+//	console.log('Понедельник')
+//	
+//}	else if (day == 2) {
+//	console.log('Вторник')
+//}
+//		else if (day == 3) {
+//	console.log('Среда')
+//}
+//		else if (day == 4) {
+//	console.log('Четверг')
+//}
+//		else if (day == 5) {
+//	console.log('Пятница')
+//}
+//		else if (day == 6) {
+//	console.log('Суббота')
+//}
+//		else if (day == 7) {
+//	console.log('Воскресенье')
+//}
+//	else {
+//		console.log('Таких дней не существует')
+//	}
+	
+//	var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+//	var number = prompt('Какой номер дня недели?')
+//	
+//	console.log(days[number]);
+//	
+	
+	
+	
+//2)Есть дракон(dragon) и два воина(warrior1 и warrior). У каждого из них есть своя атака и воины дерутся с драконом. Написать кто из воинов победит: первый, второй, они вместе или дракон. Побеждает тот у кого атака больше.
+
+let viking1 = 4;
+let viking2 = 3;
+let dragon = 7;
+	
+if (viking1 >= dragon) {
+	console.log('viking1 wins')
+} else {
+	if(viking2 >= dragon ) {
+		console.log('viking2 wins')
+	} else {
+		if(viking1 + viking2 >= dragon) {
+			console.log('the team wins')
+		} else {
+			console.log('dragon wins')
+		}
+			
+	} 
+		
+}
+
+
+	
+</script>
+	
+</body>
+</html>
